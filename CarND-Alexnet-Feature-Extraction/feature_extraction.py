@@ -5,6 +5,7 @@ import pandas as pd
 from scipy.misc import imread
 from alexnet import AlexNet
 
+
 sign_names = pd.read_csv('signnames.csv')
 nb_classes = 43
 
